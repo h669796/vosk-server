@@ -50,9 +50,8 @@ This script is used for evaluating the speech recognition performance of the Vos
 │   ├── mri_noise.wav         # Example noise file for evaluation
 │   ├── offline_eval.py       # Evaluation script
 │   └── *.csv                 # Evaluation results
-├── quiz_server.py            # WebSocket server for the Quiz Game
-├── server.py                 # General purpose WebSocket server
-└── README.md                 # This file
+├── quiz_server.py            # WebSocket server for the Quiz Game                 
+└── README.md                 
 
 ## Prerequisites
 
