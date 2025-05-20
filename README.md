@@ -44,6 +44,10 @@ This script is used for evaluating the speech recognition performance of the Vos
 * Results are saved to a CSV file in the `evaluation/` directory (e.g., `eval_YYYY-MM-DDTHH-MM-SS.csv`). The CSV files like `eval_2025-04-29T15-22-34.csv`, `eval_2025-04-30T15-24-01.csv`, `eval_2025-05-05T18-07-06.csv`, `eval_2025-05-05T22-18-27.csv`, and `eval_results.csv` store these evaluation results, typically containing columns for SNR_dB, correct, total, and accuracy_pct.
 
 ## Project Structure 
+## Project Structure
+
+```text
+vosk-server
 ├── model-en/                 # Directory for the Vosk English model
 ├── evaluation/
 │   ├── clean_commands/       # Directory for clean audio files for evaluation
@@ -51,7 +55,8 @@ This script is used for evaluating the speech recognition performance of the Vos
 │   ├── offline_eval.py       # Evaluation script
 │   └── *.csv                 # Evaluation results
 ├── quiz_server.py            # WebSocket server for the Quiz Game                 
-└── README.md                 
+└── README.md
+```
 
 ## Prerequisites
 
