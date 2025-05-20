@@ -65,7 +65,7 @@ vosk-server
 3.  **Websockets:** `pip install websockets`
 4.  **Pydub (for `offline_eval.py`):** `pip install pydub`
 5.  **Vosk English Model (`model-en`):**
-    * Download a Vosk English model (e.g., `vosk-model-en-us-0.15` or a smaller one).
+    * Download a Vosk English model (e.g., `vosk-model-small-en-us-0.15` or a smaller one).
     * Extract and rename the model folder to `model-en` and place it in the root of this `vosk-server` project.
 
 ## Setup and Running
@@ -82,7 +82,7 @@ vosk-server
     ```
 
 3.  **Download and Place Vosk Model:**
-    * Download the model-en-us-0.15 English model from the [Vosk Models Page](https://alphacephei.com/vosk/models).
+    * Download the vosk-model-small-en-us-0.15 English model from the [Vosk Models Page](https://alphacephei.com/vosk/models).
     * Extract the archive.
     * Rename the extracted folder to `model-en` and place it in the root of the `vosk-server` directory.
 
